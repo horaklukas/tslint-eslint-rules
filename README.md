@@ -358,7 +358,7 @@ These are rules designed to prevent you from making mistakes. They either prescr
   * Usage
 
     ```json
-    "default-case": true
+    "switch-default": true
     ```
 
 * [dot-location](http://eslint.org/docs/rules/dot-location) => dot-location (tslint-eslint-rules) [TODO]()
@@ -398,7 +398,7 @@ These are rules designed to prevent you from making mistakes. They either prescr
   * Usage
 
     ```json
-    "eqeqeq": [
+    "triple-equals": [
         true,
         "allow-null-check"
       ]
@@ -750,7 +750,7 @@ These are rules designed to prevent you from making mistakes. They either prescr
   * Usage
 
     ```json
-    "no-unused-expressions": true
+    "no-unused-expression": true
     ```
 
 * [no-useless-call](http://eslint.org/docs/rules/no-useless-call) => no-useless-call (tslint-eslint-rules) [TODO]()
@@ -977,12 +977,12 @@ These rules have to do with variable declarations.
     "no-unused-variable": true
     ```
 
-* [no-use-before-define](http://eslint.org/docs/rules/no-use-before-define) => no-use-before-define (native)
-  * Description: disallow use of variables before they are defined
+* [no-use-before-define](http://eslint.org/docs/rules/no-use-before-define) => no-use-before-declare (native)
+  * Description: disallow use of variables before they are declare
   * Usage
 
     ```json
-    "no-use-before-define": true
+    "no-use-before-declare": true
     ```
 
 ### Node.js and CommonJS
